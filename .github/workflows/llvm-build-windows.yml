@@ -175,7 +175,7 @@ jobs:
       with:
         repository: 'llvm/llvm-project'
         ref: '${{env.LLVM_REF}}'
-        path: 'llvm-${{env.LLVM_VER}}/src'
+        path: 'src'
 
     - name: Get LLVM SHA
       if: ${{ success() }} && ${{ !cancelled() }}
