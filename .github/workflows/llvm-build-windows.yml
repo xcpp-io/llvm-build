@@ -17,7 +17,7 @@ on:
         description: 'LLVM_ENABLE_PROJECTS'
         required: false
         type: string
-        default: "clang"
+        default: "clang;lld;clang-tools-extra"
       INPUT_LLVM_ENABLE_RUNTIMES:
         description: 'LLVM_ENABLE_RUNTIMES'
         required: false
